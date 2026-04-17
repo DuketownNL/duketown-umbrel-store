@@ -1,25 +1,34 @@
 manifestVersion: 1
 id: duketown-crafty
-name: Duketown Crafty
-tagline: Minecraft server manager
-description: Manage your Minecraft servers with Crafty Controller
-developer: DuketownNL
-website: https://craftycontrol.com
-category: gaming
-version: "4.10.3"
+name: Crafty Controller
+tagline: An intuitive way to automate and manage your Minecraft server with ease
 
 icon: https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/icon.png
+
+category: gaming
+version: "4.10.3"
+port: 18443
+
+description: >-
+  Crafty Controller is an open-source web-based interface to manage Minecraft servers.
+
+developer: DuketownNL
+website: https://craftycontrol.com/
+repo: https://gitlab.com/crafty-controller
+support: https://gitlab.com/groups/crafty-controller/-/issues
 
 gallery:
   - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-1.png
   - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-2.png
 
-port: 18443
-
-releaseNotes: |
+releaseNotes: >-
   Updated to Crafty Controller 4.10.3
-  - Security improvements (CVE-2026-5652)
-  - Dashboard UI fixes
-  - Python 3.10 compatibility fix
+  - Security improvements
+  - UI fixes
+  - Python compatibility fixes
 
-dependencies: []
+dependencies:
+
+path: "https://umbrel.local:18443"
+defaultUsername: "admin"
+defaultPassword: ""

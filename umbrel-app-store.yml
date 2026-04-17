@@ -1,6 +1,2 @@
-manifestVersion: 1
 id: duketown-nl
-name: Duketown-NL UmbrelOS
-
-apps:
-  - id: duketown-crafty
+name: Duketown Umbrel
