@@ -3,7 +3,6 @@ version: "3.7"
 services:
   crafty:
     image: registry.gitlab.com/crafty-controller/crafty-4:4.2.3
-    container_name: duketown-crafty
     restart: unless-stopped
 
     ports:
