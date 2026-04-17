@@ -2,10 +2,24 @@ manifestVersion: 1
 id: duketown-crafty
 name: Duketown Crafty
 tagline: Minecraft server manager
-description: Simple Crafty Controller app
+description: Manage your Minecraft servers with Crafty Controller
 developer: DuketownNL
-version: "1.0.0"
+website: https://craftycontrol.com
+category: gaming
+version: "4.10.3"
 
-services:
-  - name: web
-    port: 8443
+icon: https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/icon.png
+
+gallery:
+  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-1.png
+  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-2.png
+
+port: 18443
+
+releaseNotes: |
+  Updated to Crafty Controller 4.10.3
+  - Security improvements (CVE-2026-5652)
+  - Dashboard UI fixes
+  - Python 3.10 compatibility fix
+
+dependencies: []
