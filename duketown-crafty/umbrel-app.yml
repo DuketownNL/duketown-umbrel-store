@@ -1,37 +1,21 @@
-manifestVersion: 1
 id: duketown-crafty
-category: gaming
-name: Crafty Controller
-version: "4.10.3"
-tagline: Minecraft server manager - latest version for UmbrelOS
-icon: https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/icon.png
-description: >-
-  🎮 Crafty Controller is a free and open-source Minecraft launcher and manager.
-  Manage multiple Minecraft servers (Java & Bedrock) from one easy web interface.
-
-  ✨ This version is the latest release (4.10.3) and is optimized for UmbrelOS.
-
-  🔐 Default login credentials can be found in:
-  data/config/default-creds.txt
-developer: Crafty Controller
+name: Duketown Crafty
+tagline: Stable Minecraft server manager
+icon: https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/icons/crafty.png
+category: Development
+version: "1.0.0"
+port: 8443
+description: >
+  A stable and maintained Crafty Controller app for Umbrel.
+developer: DuketownNL
 website: https://craftycontrol.com
-submittedBy: Duketown-NL
+submitter: DuketownNL
 repo: https://github.com/DuketownNL/duketown-umbrel-store
 support: https://github.com/DuketownNL/duketown-umbrel-store/issues
-port: 8000
-gallery:
-  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-1.png
-  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-crafty/screenshot-2.png
-releaseNotes: >-
-  🚀 Updated to Crafty Controller v4.10.3 (April 13, 2026)
-
-  🔧 Uses HTTP on port 8000 for seamless UmbrelOS integration
-
-  ⏰ Timezone set to Europe/Amsterdam (adjustable in docker-compose.yml)
-
-  📦 Includes all latest features: Hytale server support, passkey authentication,
-  overhauled server metrics, and Phosphor icons.
+gallery: []
+releaseNotes: >
+  Initial stable release with pinned version and healthcheck.
 dependencies: []
 path: ""
-defaultUsername: "admin"
+defaultUsername: ""
 defaultPassword: ""
