@@ -1,17 +1,7 @@
 id: duketown-crafty
 name: Duketown Crafty
-tagline: Minecraft server manager
-description: Stable Crafty Controller for Umbrel
-developer: DuketownNL
-website: https://craftycontrol.com
-repo: https://github.com/DuketownNL/duketown-umbrel-store
-support: https://github.com/DuketownNL/duketown-umbrel-store/issues
-category: Development
 version: "1.0.0"
+tagline: Minecraft manager
+description: Minecraft server manager
+developer: DuketownNL
 port: 8443
-icon: icon.png
-gallery:
-  - screenshot-1.png
-  - screenshot-2.png
-releaseNotes: Initial working release
-dependencies: []
