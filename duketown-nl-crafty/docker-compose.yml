@@ -2,7 +2,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: duketown-crafty_server_1
+      APP_HOST: duketown-nl-crafty_server_1
       APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
   server:
