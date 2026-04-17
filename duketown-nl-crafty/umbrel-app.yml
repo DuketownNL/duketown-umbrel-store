@@ -4,6 +4,7 @@ category: gaming
 name: Crafty Controller
 version: "4.0"
 tagline: Minecraft server manager - fixed for UmbrelOS
+icon: https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-nl-crafty/icon.png
 description: >-
   Crafty Controller is a free and open-source Minecraft launcher and manager.
   Manage multiple Minecraft servers from one easy web interface.
@@ -20,7 +21,8 @@ repo: https://github.com/DuketownNL/duketown-umbrel-store
 support: https://github.com/DuketownNL/duketown-umbrel-store/issues
 port: 8000
 gallery:
-  - https://craftycontrol.com/images/dashboard.png
+  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-nl-crafty/screenshot-1.png
+  - https://raw.githubusercontent.com/DuketownNL/duketown-umbrel-store/main/duketown-nl-crafty/screenshot-2.png
 releaseNotes: >-
   Fixed APP_PORT from 8443 to 8000 to resolve ECONNRESET error on UmbrelOS.
   Timezone set to Europe/Amsterdam.
