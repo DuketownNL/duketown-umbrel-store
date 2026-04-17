@@ -4,7 +4,6 @@ category: gaming
 name: Crafty Controller
 version: "4.0"
 tagline: Minecraft server manager - fixed for UmbrelOS
-icon: https://gitlab.com/uploads/-/system/project/avatar/20430749/Crafty_4-0_Logo_square.ico
 description: >-
   Crafty Controller is a free and open-source Minecraft launcher and manager.
   Manage multiple Minecraft servers from one easy web interface.
