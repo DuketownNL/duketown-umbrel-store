@@ -1,10 +1,12 @@
 version: "3.7"
+
 services:
   app_proxy:
     environment:
       APP_HOST: duketown-nl-crafty_server_1
       APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
+
   server:
     image: registry.gitlab.com/crafty-controller/crafty-4:latest
     restart: unless-stopped
