@@ -1,7 +1,8 @@
+manifestVersion: 1
 id: duketown-crafty
 name: Duketown Crafty
-version: "1.0.0"
-tagline: Minecraft manager
-description: Minecraft server manager
+tagline: Minecraft server manager
+description: Simple Crafty Controller app
 developer: DuketownNL
+version: "1.0.0"
 port: 8443

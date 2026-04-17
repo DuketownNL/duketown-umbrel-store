@@ -1,24 +1,8 @@
 version: "3.7"
 
 services:
-  crafty:
-    image: registry.gitlab.com/crafty-controller/crafty-4:4.2.3
+  app:
+    image: nginx:alpine
     restart: unless-stopped
-
     ports:
-      - "8443:8443"
-
-    volumes:
-      - ${APP_DATA_DIR}/config:/crafty/app/config
-      - ${APP_DATA_DIR}/logs:/crafty/app/logs
-      - ${APP_DATA_DIR}/servers:/crafty/servers
-      - ${APP_DATA_DIR}/backups:/crafty/backups
-
-    environment:
-      - TZ=Europe/Amsterdam
-
-    healthcheck:
-      test: ["CMD", "curl", "-k", "https://localhost:8443"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
+      - "8443:80"

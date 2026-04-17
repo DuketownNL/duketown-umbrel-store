@@ -1,6 +1,7 @@
 manifestVersion: 1
 id: duketown-nl
 name: Duketown-NL UmbrelOS
+tagline: Custom app store
 
 apps:
   - id: duketown-crafty
