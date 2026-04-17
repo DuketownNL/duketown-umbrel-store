@@ -1,2 +1,5 @@
 id: duketown-nl
 name: Duketown-NL UmbrelOS
+
+apps:
+  - duketown-crafty
